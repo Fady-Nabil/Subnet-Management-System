@@ -1,0 +1,37 @@
+<h2>IP Addresses for Subnet: {{ subnetName }}</h2>
+<div *ngIf="isLoading">Loading IP addresses...</div>
+<div *ngIf="!isLoading && ipAddresses.length === 0" class="no-data-message">
+    No IP addresses found for this subnet.
+</div>
+<div *ngIf="ipAddresses.length > 0" style="margin-bottom: 16px; text-align: right;">
+    <button mat-raised-button color="primary" (click)="openAddDialog()">Add New IP Address</button>
+</div>
+<table mat-table [dataSource]="ipAddresses" class="mat-elevation-z8" *ngIf="!isLoading">
+  <ng-container matColumnDef="ipId">
+    <th mat-header-cell *matHeaderCellDef> ID </th>
+    <td mat-cell *matCellDef="let ip"> {{ ip.ipId }} </td>
+  </ng-container>
+  <ng-container matColumnDef="ipAddress">
+    <th mat-header-cell *matHeaderCellDef> IP Address </th>
+    <td mat-cell *matCellDef="let ip"> {{ ip.ipAddressValue }} </td>
+  </ng-container>
+  <ng-container matColumnDef="subnetName">
+    <th mat-header-cell *matHeaderCellDef> Subnet Name </th>
+    <td mat-cell *matCellDef="let ip"> {{ ip.subnetName }} </td>
+  </ng-container>
+  <ng-container matColumnDef="creatorEmail">
+    <th mat-header-cell *matHeaderCellDef> Creator Email </th>
+    <td mat-cell *matCellDef="let ip"> {{ ip.creatorEmail }} </td>
+  </ng-container>
+  <ng-container matColumnDef="actions">
+    <th mat-header-cell *matHeaderCellDef> Actions </th>
+    <td mat-cell *matCellDef="let ip">
+      <button mat-raised-button color="primary" class="action-button" (click)="openEditDialog(ip.ipId, ip)">Edit</button>
+      <button mat-raised-button color="warn" (click)="deleteIpAddress(ip.ipId)">Delete</button>
+    </td>
+  </ng-container>
+  <tr mat-header-row *matHeaderRowDef="['ipId', 'ipAddress', 'subnetName', 'creatorEmail', 'actions']"></tr>
+  <tr mat-row *matRowDef="let row; columns: ['ipId', 'ipAddress', 'subnetName', 'creatorEmail', 'actions'];"></tr>
+</table>
+
+  

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\SubnetIpManagement.API.props" />
+</Project>

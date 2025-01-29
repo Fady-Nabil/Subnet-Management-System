@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "UavOhOKQY6+hxyvzE5MC5oxKzW6dhPmDrTS5IqAXvF4=",
+  "Source": "SubnetIpManagement.API",
+  "BasePath": "_content/SubnetIpManagement.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,52 @@
+<div>
+    <!-- Add New Button -->
+    <div style="margin-bottom: 16px; text-align: right;">
+        <button mat-raised-button color="accent" (click)="openAddSubnetDialog()">Add New</button>
+    </div>
+    <table mat-table [dataSource]="subnets" class="mat-elevation-z8">
+      <!-- Subnet ID Column -->
+      <ng-container matColumnDef="subnetId">
+        <th mat-header-cell *matHeaderCellDef> ID </th>
+        <td mat-cell *matCellDef="let subnet"> {{ subnet.subnetId }} </td>
+      </ng-container>
+  
+      <!-- Subnet Name Column -->
+      <ng-container matColumnDef="subnetName">
+        <th mat-header-cell *matHeaderCellDef> Name </th>
+        <td mat-cell *matCellDef="let subnet"> {{ subnet.subnetName }} </td>
+      </ng-container>
+  
+      <!-- Subnet Address Column -->
+      <ng-container matColumnDef="subnetAddress">
+        <th mat-header-cell *matHeaderCellDef> Address </th>
+        <td mat-cell *matCellDef="let subnet"> {{ subnet.subnetAddress }} </td>
+      </ng-container>
+  
+      <!-- Creator Email Column -->
+      <ng-container matColumnDef="creatorEmail">
+        <th mat-header-cell *matHeaderCellDef> Creator Email </th>
+        <td mat-cell *matCellDef="let subnet"> {{ subnet.creatorEmail }} </td>
+      </ng-container>
+
+       <!-- Actions Column -->
+    <ng-container matColumnDef="actions">
+        <th mat-header-cell *matHeaderCellDef> Actions </th>
+        <td mat-cell *matCellDef="let subnet">
+          <button mat-raised-button color="primary" class="action-button"  (click)="openEditSubnetDialog(subnet.subnetId, subnet)">Edit</button>
+          <button mat-raised-button color="warn" class="action-button"  (click)="deleteSubnet(subnet.subnetId)">Delete</button>
+          <button mat-raised-button color="accent" (click)="openIpAddressPage(subnet)">Details</button>
+        </td>
+      </ng-container>
+  
+      <tr mat-header-row *matHeaderRowDef="['subnetId', 'subnetName', 'subnetAddress', 'creatorEmail', 'actions']"></tr>
+      <tr mat-row *matRowDef="let row; columns: ['subnetId', 'subnetName', 'subnetAddress', 'creatorEmail', 'actions'];"></tr>
+    </table>
+  
+    <mat-paginator
+      [length]="totalCount"
+      [pageSize]="pageSize"
+      [pageSizeOptions]="[5, 10, 20]"
+      (page)="onPageChange($event)">
+    </mat-paginator>
+  </div>
+  

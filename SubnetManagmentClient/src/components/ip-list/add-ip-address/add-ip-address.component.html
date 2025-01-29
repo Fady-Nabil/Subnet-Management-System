@@ -1,0 +1,18 @@
+<h2 mat-dialog-title>{{ isEdit ? 'Edit IP Address' : 'Add New IP Address' }}</h2>
+<mat-dialog-content>
+    <form [formGroup]="ipForm">
+        <mat-form-field appearance="fill" style="width: 100%;">
+          <mat-label>IP Address</mat-label>
+          <input matInput formControlName="ipAddressValue" required />
+          <mat-error *ngIf="ipForm.get('ipAddressValue')?.invalid">IP Address is required</mat-error>
+          <mat-error *ngIf="ipForm.get('ipAddressValue')?.hasError('pattern')">
+            IP Address must be in the format "192.168.1.1".
+          </mat-error>
+        </mat-form-field>
+    </form>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button (click)="close()">Cancel</button>
+  <button mat-raised-button color="primary" (click)="save()">Save</button>
+</mat-dialog-actions>
+

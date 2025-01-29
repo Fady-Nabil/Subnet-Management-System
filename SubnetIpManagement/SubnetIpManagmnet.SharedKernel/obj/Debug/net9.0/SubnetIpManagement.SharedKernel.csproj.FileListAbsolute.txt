@@ -1,0 +1,12 @@
+D:\interview-tasks\Cyshield\SubnetIpManagement\SubnetIpManagmnet.SharedKernel\bin\Debug\net9.0\SubnetIpManagement.SharedKernel.deps.json
+D:\interview-tasks\Cyshield\SubnetIpManagement\SubnetIpManagmnet.SharedKernel\bin\Debug\net9.0\SubnetIpManagement.SharedKernel.dll
+D:\interview-tasks\Cyshield\SubnetIpManagement\SubnetIpManagmnet.SharedKernel\bin\Debug\net9.0\SubnetIpManagement.SharedKernel.pdb
+D:\interview-tasks\Cyshield\SubnetIpManagement\SubnetIpManagmnet.SharedKernel\obj\Debug\net9.0\SubnetIpManagement.SharedKernel.csproj.AssemblyReference.cache
+D:\interview-tasks\Cyshield\SubnetIpManagement\SubnetIpManagmnet.SharedKernel\obj\Debug\net9.0\SubnetIpManagement.SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+D:\interview-tasks\Cyshield\SubnetIpManagement\SubnetIpManagmnet.SharedKernel\obj\Debug\net9.0\SubnetIpManagement.SharedKernel.AssemblyInfoInputs.cache
+D:\interview-tasks\Cyshield\SubnetIpManagement\SubnetIpManagmnet.SharedKernel\obj\Debug\net9.0\SubnetIpManagement.SharedKernel.AssemblyInfo.cs
+D:\interview-tasks\Cyshield\SubnetIpManagement\SubnetIpManagmnet.SharedKernel\obj\Debug\net9.0\SubnetIpManagement.SharedKernel.csproj.CoreCompileInputs.cache
+D:\interview-tasks\Cyshield\SubnetIpManagement\SubnetIpManagmnet.SharedKernel\obj\Debug\net9.0\SubnetIpManagement.SharedKernel.dll
+D:\interview-tasks\Cyshield\SubnetIpManagement\SubnetIpManagmnet.SharedKernel\obj\Debug\net9.0\refint\SubnetIpManagement.SharedKernel.dll
+D:\interview-tasks\Cyshield\SubnetIpManagement\SubnetIpManagmnet.SharedKernel\obj\Debug\net9.0\SubnetIpManagement.SharedKernel.pdb
+D:\interview-tasks\Cyshield\SubnetIpManagement\SubnetIpManagmnet.SharedKernel\obj\Debug\net9.0\ref\SubnetIpManagement.SharedKernel.dll

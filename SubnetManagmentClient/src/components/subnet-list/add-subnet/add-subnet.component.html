@@ -1,0 +1,23 @@
+<h2 mat-dialog-title>{{ isEdit ? 'Edit' : 'Add New' }}</h2>
+<form [formGroup]="subnetForm">
+  <mat-form-field appearance="fill" style="width: 100%;">
+    <mat-label>Subnet Name</mat-label>
+    <input matInput formControlName="subnetName" required />
+    <mat-error *ngIf="subnetForm.get('subnetName')?.invalid">Subnet Name is required</mat-error>
+    
+</mat-form-field>
+
+  <mat-form-field appearance="fill" style="width: 100%;">
+    <mat-label>Subnet Address</mat-label>
+    <input matInput formControlName="subnetAddress" required />
+    <mat-error *ngIf="subnetForm.get('subnetAddress')?.invalid">Subnet Address is required</mat-error>
+    <mat-error *ngIf="subnetForm.get('subnetAddress')?.hasError('pattern')">
+        Subnet Address must be in the format "192.168.1.0/24".
+    </mat-error>
+</mat-form-field>
+
+  <div mat-dialog-actions>
+    <button mat-button mat-dialog-close (click)="closeDialog()">Cancel</button>
+    <button mat-raised-button color="primary" type="submit" (click)="save()" [disabled]="subnetForm.invalid">Save</button>
+  </div>
+</form>

@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0520F770-1FDC-47A8-A3B0-02AC44A5069E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubnetIpManagement.API", "SubnetIpManagement.API\SubnetIpManagement.API.csproj", "{3BA8CA03-AC81-4B69-AFA9-0F97F6DD363C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubnetIpManagement.Domain", "SubnetIpManagement.Domain\SubnetIpManagement.Domain.csproj", "{F0C7AEB1-AB92-43E1-AA93-10FD1BC2BD75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubnetIpManagement.Infrastructure", "SubnetIpManagement.Infrastructure\SubnetIpManagement.Infrastructure.csproj", "{1D714D8C-9768-40EA-910D-463DA9DCB8EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubnetIpManagement.SharedKernel", "SubnetIpManagmnet.SharedKernel\SubnetIpManagement.SharedKernel.csproj", "{0C1BB656-C4DC-4C68-A08A-F9577D38AFF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BA8CA03-AC81-4B69-AFA9-0F97F6DD363C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BA8CA03-AC81-4B69-AFA9-0F97F6DD363C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BA8CA03-AC81-4B69-AFA9-0F97F6DD363C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BA8CA03-AC81-4B69-AFA9-0F97F6DD363C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0C7AEB1-AB92-43E1-AA93-10FD1BC2BD75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0C7AEB1-AB92-43E1-AA93-10FD1BC2BD75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0C7AEB1-AB92-43E1-AA93-10FD1BC2BD75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0C7AEB1-AB92-43E1-AA93-10FD1BC2BD75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D714D8C-9768-40EA-910D-463DA9DCB8EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D714D8C-9768-40EA-910D-463DA9DCB8EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D714D8C-9768-40EA-910D-463DA9DCB8EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D714D8C-9768-40EA-910D-463DA9DCB8EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C1BB656-C4DC-4C68-A08A-F9577D38AFF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C1BB656-C4DC-4C68-A08A-F9577D38AFF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C1BB656-C4DC-4C68-A08A-F9577D38AFF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C1BB656-C4DC-4C68-A08A-F9577D38AFF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3BA8CA03-AC81-4B69-AFA9-0F97F6DD363C} = {0520F770-1FDC-47A8-A3B0-02AC44A5069E}
+		{F0C7AEB1-AB92-43E1-AA93-10FD1BC2BD75} = {0520F770-1FDC-47A8-A3B0-02AC44A5069E}
+		{1D714D8C-9768-40EA-910D-463DA9DCB8EA} = {0520F770-1FDC-47A8-A3B0-02AC44A5069E}
+		{0C1BB656-C4DC-4C68-A08A-F9577D38AFF9} = {0520F770-1FDC-47A8-A3B0-02AC44A5069E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+D:\interview-tasks\Cyshield\SubnetIpManagement\SubnetIpManagement.Domain\bin\Debug\net9.0\SubnetIpManagement.Domain.deps.json
+D:\interview-tasks\Cyshield\SubnetIpManagement\SubnetIpManagement.Domain\bin\Debug\net9.0\SubnetIpManagement.Domain.dll
+D:\interview-tasks\Cyshield\SubnetIpManagement\SubnetIpManagement.Domain\bin\Debug\net9.0\SubnetIpManagement.Domain.pdb
+D:\interview-tasks\Cyshield\SubnetIpManagement\SubnetIpManagement.Domain\bin\Debug\net9.0\SubnetIpManagement.SharedKernel.dll
+D:\interview-tasks\Cyshield\SubnetIpManagement\SubnetIpManagement.Domain\bin\Debug\net9.0\SubnetIpManagement.SharedKernel.pdb
+D:\interview-tasks\Cyshield\SubnetIpManagement\SubnetIpManagement.Domain\obj\Debug\net9.0\SubnetIpManagement.Domain.csproj.AssemblyReference.cache
+D:\interview-tasks\Cyshield\SubnetIpManagement\SubnetIpManagement.Domain\obj\Debug\net9.0\SubnetIpManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\interview-tasks\Cyshield\SubnetIpManagement\SubnetIpManagement.Domain\obj\Debug\net9.0\SubnetIpManagement.Domain.AssemblyInfoInputs.cache
+D:\interview-tasks\Cyshield\SubnetIpManagement\SubnetIpManagement.Domain\obj\Debug\net9.0\SubnetIpManagement.Domain.AssemblyInfo.cs
+D:\interview-tasks\Cyshield\SubnetIpManagement\SubnetIpManagement.Domain\obj\Debug\net9.0\SubnetIpManagement.Domain.csproj.CoreCompileInputs.cache
+D:\interview-tasks\Cyshield\SubnetIpManagement\SubnetIpManagement.Domain\obj\Debug\net9.0\SubnetIp.ACDDF4C0.Up2Date
+D:\interview-tasks\Cyshield\SubnetIpManagement\SubnetIpManagement.Domain\obj\Debug\net9.0\SubnetIpManagement.Domain.dll
+D:\interview-tasks\Cyshield\SubnetIpManagement\SubnetIpManagement.Domain\obj\Debug\net9.0\refint\SubnetIpManagement.Domain.dll
+D:\interview-tasks\Cyshield\SubnetIpManagement\SubnetIpManagement.Domain\obj\Debug\net9.0\SubnetIpManagement.Domain.pdb
+D:\interview-tasks\Cyshield\SubnetIpManagement\SubnetIpManagement.Domain\obj\Debug\net9.0\ref\SubnetIpManagement.Domain.dll

@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\interview-tasks\\Cyshield\\SubnetIpManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA8CA03-AC81-4B69-AFA9-0F97F6DD363C}|SubnetIpManagement.API\\SubnetIpManagement.API.csproj|d:\\interview-tasks\\cyshield\\subnetipmanagement\\subnetipmanagement.api\\controllers\\ipaddresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA8CA03-AC81-4B69-AFA9-0F97F6DD363C}|SubnetIpManagement.API\\SubnetIpManagement.API.csproj|solutionrelative:subnetipmanagement.api\\controllers\\ipaddresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA8CA03-AC81-4B69-AFA9-0F97F6DD363C}|SubnetIpManagement.API\\SubnetIpManagement.API.csproj|d:\\interview-tasks\\cyshield\\subnetipmanagement\\subnetipmanagement.api\\dtos\\subnetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA8CA03-AC81-4B69-AFA9-0F97F6DD363C}|SubnetIpManagement.API\\SubnetIpManagement.API.csproj|solutionrelative:subnetipmanagement.api\\dtos\\subnetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA8CA03-AC81-4B69-AFA9-0F97F6DD363C}|SubnetIpManagement.API\\SubnetIpManagement.API.csproj|d:\\interview-tasks\\cyshield\\subnetipmanagement\\subnetipmanagement.api\\dtos\\ipaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA8CA03-AC81-4B69-AFA9-0F97F6DD363C}|SubnetIpManagement.API\\SubnetIpManagement.API.csproj|solutionrelative:subnetipmanagement.api\\dtos\\ipaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA8CA03-AC81-4B69-AFA9-0F97F6DD363C}|SubnetIpManagement.API\\SubnetIpManagement.API.csproj|d:\\interview-tasks\\cyshield\\subnetipmanagement\\subnetipmanagement.api\\dtos\\getipaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA8CA03-AC81-4B69-AFA9-0F97F6DD363C}|SubnetIpManagement.API\\SubnetIpManagement.API.csproj|solutionrelative:subnetipmanagement.api\\dtos\\getipaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA8CA03-AC81-4B69-AFA9-0F97F6DD363C}|SubnetIpManagement.API\\SubnetIpManagement.API.csproj|d:\\interview-tasks\\cyshield\\subnetipmanagement\\subnetipmanagement.api\\controllers\\subnetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA8CA03-AC81-4B69-AFA9-0F97F6DD363C}|SubnetIpManagement.API\\SubnetIpManagement.API.csproj|solutionrelative:subnetipmanagement.api\\controllers\\subnetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA8CA03-AC81-4B69-AFA9-0F97F6DD363C}|SubnetIpManagement.API\\SubnetIpManagement.API.csproj|d:\\interview-tasks\\cyshield\\subnetipmanagement\\subnetipmanagement.api\\dtos\\getsubnetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA8CA03-AC81-4B69-AFA9-0F97F6DD363C}|SubnetIpManagement.API\\SubnetIpManagement.API.csproj|solutionrelative:subnetipmanagement.api\\dtos\\getsubnetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IPAddressController.cs",
+              "DocumentMoniker": "D:\\interview-tasks\\Cyshield\\SubnetIpManagement\\SubnetIpManagement.API\\Controllers\\IPAddressController.cs",
+              "RelativeDocumentMoniker": "SubnetIpManagement.API\\Controllers\\IPAddressController.cs",
+              "ToolTip": "D:\\interview-tasks\\Cyshield\\SubnetIpManagement\\SubnetIpManagement.API\\Controllers\\IPAddressController.cs",
+              "RelativeToolTip": "SubnetIpManagement.API\\Controllers\\IPAddressController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwCAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T17:05:04.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SubnetController.cs",
+              "DocumentMoniker": "D:\\interview-tasks\\Cyshield\\SubnetIpManagement\\SubnetIpManagement.API\\Controllers\\SubnetController.cs",
+              "RelativeDocumentMoniker": "SubnetIpManagement.API\\Controllers\\SubnetController.cs",
+              "ToolTip": "D:\\interview-tasks\\Cyshield\\SubnetIpManagement\\SubnetIpManagement.API\\Controllers\\SubnetController.cs",
+              "RelativeToolTip": "SubnetIpManagement.API\\Controllers\\SubnetController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAApwCkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T16:32:53.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SubnetDto.cs",
+              "DocumentMoniker": "D:\\interview-tasks\\Cyshield\\SubnetIpManagement\\SubnetIpManagement.API\\Dtos\\SubnetDto.cs",
+              "RelativeDocumentMoniker": "SubnetIpManagement.API\\Dtos\\SubnetDto.cs",
+              "ToolTip": "D:\\interview-tasks\\Cyshield\\SubnetIpManagement\\SubnetIpManagement.API\\Dtos\\SubnetDto.cs",
+              "RelativeToolTip": "SubnetIpManagement.API\\Dtos\\SubnetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T17:49:15.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IpAddressDto.cs",
+              "DocumentMoniker": "D:\\interview-tasks\\Cyshield\\SubnetIpManagement\\SubnetIpManagement.API\\Dtos\\IpAddressDto.cs",
+              "RelativeDocumentMoniker": "SubnetIpManagement.API\\Dtos\\IpAddressDto.cs",
+              "ToolTip": "D:\\interview-tasks\\Cyshield\\SubnetIpManagement\\SubnetIpManagement.API\\Dtos\\IpAddressDto.cs",
+              "RelativeToolTip": "SubnetIpManagement.API\\Dtos\\IpAddressDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T17:49:11.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetIPAddressDto.cs",
+              "DocumentMoniker": "D:\\interview-tasks\\Cyshield\\SubnetIpManagement\\SubnetIpManagement.API\\Dtos\\GetIPAddressDto.cs",
+              "RelativeDocumentMoniker": "SubnetIpManagement.API\\Dtos\\GetIPAddressDto.cs",
+              "ToolTip": "D:\\interview-tasks\\Cyshield\\SubnetIpManagement\\SubnetIpManagement.API\\Dtos\\GetIPAddressDto.cs",
+              "RelativeToolTip": "SubnetIpManagement.API\\Dtos\\GetIPAddressDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T17:49:09.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetSubnetDto.cs",
+              "DocumentMoniker": "D:\\interview-tasks\\Cyshield\\SubnetIpManagement\\SubnetIpManagement.API\\Dtos\\GetSubnetDto.cs",
+              "RelativeDocumentMoniker": "SubnetIpManagement.API\\Dtos\\GetSubnetDto.cs",
+              "ToolTip": "D:\\interview-tasks\\Cyshield\\SubnetIpManagement\\SubnetIpManagement.API\\Dtos\\GetSubnetDto.cs",
+              "RelativeToolTip": "SubnetIpManagement.API\\Dtos\\GetSubnetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T17:49:08.853Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
